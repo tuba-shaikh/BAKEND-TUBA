@@ -11,5 +11,5 @@ app.get("/secret", (req, res) => {
  res.send("Secret is: " + SECRET);
 });
 app.listen(PORT, () => {
- console.log("Server running on port " + PORT);
+ console.log("Server running on port ${ PORT}");
 });
